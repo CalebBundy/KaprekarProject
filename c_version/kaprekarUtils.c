@@ -34,7 +34,7 @@ int isKaprekar(int n) {
   //compute the number of digits of the square
   int numDigits = (int) log10(n) + 1;
   long modulus = 0;
-  long first, second, modulous;
+  long first, second, modulus;
   double numberOfDigits;
 
   //for each possible "split" of the square...
